@@ -6,7 +6,7 @@ export default function Card({ value, onChange, crypto, amount, handler }) {
     <div className='card-container'>
       <div className='card'>
         <p>{crypto}</p>
-        <p>{amount}</p>
+        <p>${amount}</p>
       </div>
       <input className='input' placeholder='Qty' type="text" value={value} onChange={onChange} />
       <button className='button' onClick={handler}>Add</button>
