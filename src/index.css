@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  border: 2px;
+}
+.card-container{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  width: 100%;
+  align-items: center;
+}
+
+.input{
+  width: 100px;
+  border-radius: 50px;
+}
+
+.button{
+  width: 100px;
+  padding: 15px;
+  background-color: rgb(38, 38, 163);
+  color: black;
+  border-radius: 50px;
+}
+
+.transactions-list{
+  margin: 50px;
+}
+
+
+.transactions-list table {
+  width: 100%;
+  border-collapse: separate; 
+  border-spacing: 0 20px;
+  border: #f2f2f2;
+  border-style: solid;
+}
+
+.transactions-list th, .transactions-list td {
+  padding: 8px;
+  justify-content: center;
+}
+
+
+.transactions-list th{
+  background-color: #f2f2f2;
+}
+
+
+.total{
+  display: flex;
+  justify-content: end;
+  margin-right: 350px;
+}
