@@ -8,8 +8,8 @@ function App() {
 
   const coins = [
     { crypto: 'BTC', amount: 25000 },
-    { crypto: 'ETH', amount: 0.75 },
-    { crypto: 'LTC', amount: 1.5 },
+    { crypto: 'DOGE', amount: 0.75 },
+    { crypto: 'RIPPLE', amount: 1.5 },
   ];
 
   const handler = (crypto) => {
